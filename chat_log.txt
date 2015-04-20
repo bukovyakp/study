@@ -1,0 +1,8 @@
+user1  ->  hello
+girl  ->  hello, user1
+user1  ->  how are you?
+girl  ->  I'm okey, and you?
+user  ->  I'm fine too. Can I ask you for samsing
+girl  ->  yes, you can
+user  ->  fack the system
+girl  ->  I not anderstend you
