@@ -29,6 +29,7 @@ class Solver(pb.Root):
         return "%s, %s, result: %.2f" % (self, str(arg), result)
 
     # Alias methods, for demonstration version:
+
     remote_step1 = step
     remote_step2 = step
     remote_step3 = step
@@ -41,6 +42,7 @@ class Solver(pb.Root):
         print "solver.py %s: remote_terminate" % self.id
         reactor.callLater(0.5, reactor.stop)
         return "%s terminating..." % self
+
 
 if __name__ == "__main__":
     port = int(sys.argv[1])
