@@ -11,7 +11,7 @@ def info(object, spacing=10,collapse=1):
 if __name__ == '__main__':
 	print info.__doc__
 
-# lets test fith some object
+# lets test fith some object and view results
 
 al = {}
 info(al)
