@@ -1,6 +1,5 @@
 """
 Controller.py
-Original version by Bruce Eckel
 Starts and manages solvers in separate processes for parallel processing.
 """
 import sys
@@ -29,7 +28,6 @@ class Controller(object):
             solver.callRemote("status").addCallbacks(
                 lambda r: sys.stdout.write(r + "\n"), self.failed, 
                 errbackArgs=("Status Check Failed"))
-            
                                                      
     def failed(self, results, failureMessage="Call Failed"):
         print "controller.py: failed"
