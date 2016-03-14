@@ -13,6 +13,7 @@ class Heap:
         self.currSize = len(someList)
         self.heap.insert(0, 0)
 
+
     def swap(self, a, b):
         temp = self.heap[a]
         self.heap[a] = self.heap[b]
