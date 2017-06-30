@@ -8,7 +8,7 @@ class SkipIterator:
         self.wrapper = wrapper                  # информация о состоянии
         self.offset = 0
 
-    def __next__(self):
+    def next(self):
         if self.offset >= len(self.wrapper):    # завершить итерации
             raise StopIteration
         else:

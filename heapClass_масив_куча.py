@@ -1,16 +1,19 @@
 def parent(i):
     return i/2
 
+
 def left(i):
     return 2*i
+
 
 def right(i):
     return (2*i + 1)
 
+
 class Heap:
-    def __init__(self, someList):
+    def __init__(self, somelist):
         self.heap = someList
-        self.currSize = len(someList)
+        self.currSize = len(somelist)
         self.heap.insert(0, 0)
 
     def swap(self, a, b):
@@ -35,7 +38,7 @@ class Heap:
                 index = par
                 par = parent(index)
 
-        print self.heap
+        print (self.heap)
 
     def extractMax(self):
         if self.currSize != 0:
@@ -64,14 +67,14 @@ class Heap:
 
     def buildHeap(self):
         for i in range(self.currSize/2, 0, -1):
-            print self.heap
+            print(self.heap)
             self.maxHeapify(i)
         self.currSize = len(self.heap)-1
-        print self.heap
+        print(self.heap)
 
     def heapSort(self):
         for i in range(1, len(self.heap)):
-            print self.heap
+            print(self.heap)
             self.heap.insert(len(self.heap)-i, self.extractMax())
         self.currSize = len(self.heap)-1
-        print self.heap
+        print(self.heap)

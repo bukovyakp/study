@@ -11,9 +11,13 @@ def instance_tree(inst):
 
 def self_test():
     class A: pass
+
     class B(A): pass
+
     class C(A): pass
+
     class D(B, C): pass
+
     class F(D, E): pass
 
     instance_tree(B())
