@@ -2,8 +2,12 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <content url="file://$MODULE_DIR$" />
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Python 3.4.3 (/usr/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="library" name="Python 3.4.3 (/usr/bin/python3) interpreter library" level="application" />
+=======
+    <orderEntry type="jdk" jdkName="Python 2.7.11 (C:\Python27\python.exe)" jdkType="Python SDK" />
+>>>>>>> d4aa391f9d5471999cf24882c21ca7968c1916bf
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
